@@ -54,5 +54,10 @@ public class Cercle implements IForme {
         rayon = rayon*x;
     }
 
-    public String en
+    public String enSVG(){
+        String rep = """<circle cx=
+                
+                """;
+
+    }
 }
