@@ -55,9 +55,7 @@ public class Cercle implements IForme {
     }
 
     public String enSVG(){
-        String rep = """<circle cx=
-                
-                """;
+        String rep = "<circle cx= " 
 
     }
 }
