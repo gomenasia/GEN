@@ -139,7 +139,7 @@ public class Polygon implements IForme{
             s += point.y();
             s += " ";
         }
-        s += "\" fill=\"" + color + "\" stroke=\"black\"/> \n";
+        s += "\" fill=\"white" + color + "\" stroke=\"black\"/> \n";
         
         return s;
     }
