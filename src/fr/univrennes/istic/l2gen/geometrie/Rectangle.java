@@ -66,6 +66,6 @@ public class Rectangle implements IForme {
     public String enSVG(){
         double x_coin = x - (largeur / 2);
         double y_coin = y - (hauteur / 2);
-        return "<rect x=\""+ x_coin + "\" y=\"" + y_coin + "\" width=\"" + largeur + "\" height=\"" + hauteur + "\" fill=\"white\" stroke=\"black\"/>";
+        return "<rect x=\""+ x_coin + "\" y=\"" + y_coin + "\" width=\"" + largeur + "\" height=\"" + hauteur + "\" fill=\"white\" stroke=\"black\"/> \n";
     }
 }

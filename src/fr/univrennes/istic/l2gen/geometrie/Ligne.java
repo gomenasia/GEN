@@ -114,7 +114,7 @@ public class Ligne implements IForme{
             s += point.y();
             s+= " ";
         }
-        s += "\" fill=\"white\" stroke=\"blue\"/>";
+        s += "\" fill=\"white\" stroke=\"blue\"/> \n";
         return s;
     }
 }
